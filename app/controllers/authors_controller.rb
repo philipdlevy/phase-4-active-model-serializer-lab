@@ -10,6 +10,8 @@ class AuthorsController < ApplicationController
     author = Author.find(params[:id])
     render json: author
   end
+  
+
 
   private
 
